@@ -28,10 +28,12 @@ public class Main {
                     }
                 }
             }
-            System.out.println("total: " + total);
+            System.out.println(total);
+            /*
             for (int i = 0; i < notesUsed.length; i++) {
                 System.out.println(banknotes[i] + ": " + notesUsed[i]);
             }
+            */
 
         } catch (Exception e) {
             System.out.println("not found");
